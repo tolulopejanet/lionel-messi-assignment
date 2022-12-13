@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+}
+.name{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.name h1{
+    font-weight: 500;
+}
+.career{
+    display: flex;
+}
+.career .colon{
+    margin-top: -7px;
+    margin-left: 10px;
+}
+.career .colon p{
+    margin-bottom: -15px;
+}
+nav ul{
+    display: flex;
+    margin-top: 2.7rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2.4rem;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 1rem;
+    font-size: 12px;
+    padding: 0.6rem;
+    border: 0.1px solid #E7E7EA;
+    color: #3F374F;
+    border-radius: 25px;
+    background-color: #E7E7EA;
+}
+nav ul li:hover{
+     
+    border: 0.1px solid #3F374F;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 7rem;
+}
+section{
+    width: 33%;
+}
+section.left{
+    width: 100%;
+}
+.top{
+    display: flex;
+}
+.top img{
+    width: 15rem;
+    height: 10rem;
+    margin: 2px;
+}
+.top img:nth-child(1){
+    border-top-left-radius: 20px;
+}
+.top img:nth-child(2){
+    border-top-right-radius: 20px;
+}
+.bottom{
+    display: flex;
+}
+.bottom img{
+    margin: 1px;
+    width: 10rem;
+    height: 7rem;
+}
+.bottom img:nth-child(1){
+    border-bottom-left-radius: 20px;
+}
+.bottom img:nth-child(3){
+    border-bottom-right-radius: 20px;
+}
+
+.colon-img{
+    width: 15rem;
+    height: 10rem;
+}
+section.center{
+    width: 100%;
+    margin-left: 1rem;
+}
+section.center .img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section.center p{
+    padding-top: 0.8rem;
+    color: #3F374F;
+}
+section.right{
+    width: 100%;
+    margin-left: -12rem;
+}
+.property-container{
+    display: flex;
+}
+.height-container{
+    margin-right: 0.5rem;
+}
+ .height-container,.age-container{
+    width: 6rem;
+    height: 7rem;
+    background-color: #E7E7EA;
+    border-radius: 25px;
+    color: #3F374F;
+    font-size: 14px;
+}
+.height-container p:nth-child(1){
+    padding-bottom: 3.3rem;
+}
+.height-container p:nth-child(1),.age-container p:nth-child(1){
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+}
+.height-container p,.age-container p{
+    padding-bottom: 1rem;
+    padding-left: 0.8rem;
+}
+.mirror-container{
+    display: flex;
+    margin-top: 30px;
+}
+.mirror-container .img img{
+    width: 10rem;
+    height: 7rem;
+    border-radius: 20px;
+    margin-left: 10px;
+}
